@@ -1,0 +1,20 @@
+# Virtual Environments
+.venv/
+env/
+venv/
+
+# Python Cache & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.pem
+
+# Vector Database Storage
+chroma_db/
