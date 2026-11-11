@@ -1,0 +1,5 @@
+_dataclass_builtins_object__.__setattr__(self,'_disable_torch_fn_metadata_mode',_disable_torch_fn_metadata_mode)
+  self.__post_init__()
+ @__dataclasses_recursive_repr()
+ def __repr__(self):
+  return f"{self.__class__.__qualname__}(fw_compiler={self.fw_compiler!r}, bw_compiler={self.bw_compiler!r}, partition_fn={self.partition_fn!r}, decompositions={self.decompositions!r}, num_params_buffers={self.
